@@ -4,18 +4,19 @@ Personal collection of scripts, boilerplates, templates to start developing usin
 
 ### jekyll boilerplate
 
-###### -included-
+###### INCLUDED ARE:
 
-jQuery v2.1.4
-Bootstrap v4.0.0-alpha.2
-Open Sans
-Typicons
+* jQuery v2.1.4
+* Bootstrap v4.0.0-alpha.2
+* Open Sans
+* Typicons
 
-###### -prerequisites-
+###### PREREQUISITES BEFORE DOING ANYTHING:
 
 https://jekyllrb.com/docs/installation/
 
-###### -setup-
+###### TO MODIFY:
+
 * copy the jekyll_boilerplate folder and rename it
 * edit the _config.yml file with the appropriate values
 * add all images to the **img** folder and all fonts to the type folder
