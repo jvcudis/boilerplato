@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <!-- vendor scripts -->
+    <script src="{{ site.baseurl }}/js/vendors/jquery.js"></script>
+    <script src="{{ site.baseurl }}/js/vendors/tether.js"></script>
+    <script src="{{ site.baseurl }}/js/vendors/bootstrap.js"></script>
+
+    <!-- app scripts -->
+    <script src="{{ site.baseurl }}/js/main.js"></script>
+
+  </body>
+
+</html>
